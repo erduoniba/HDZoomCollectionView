@@ -5,7 +5,7 @@ it is inherits from `UIScrollView`). This project is an attempt to implement zoo
 using custom a `UICollectionViewLayout` which resizes itself to simulate the effect
 we know and love from `UIScrollView`.
 
-![](assets/iPad 9.7.gif)
+![](https://github.com/erduoniba/HDZoomCollectionView/blob/master/assets/iPad9.7.gif)
 
 ## How does it work?
 
