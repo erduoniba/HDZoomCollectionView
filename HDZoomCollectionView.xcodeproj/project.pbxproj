@@ -13,6 +13,10 @@
 		D9156D18225F63CC00EA63EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9156D17225F63CC00EA63EC /* Assets.xcassets */; };
 		D9156D1B225F63CC00EA63EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9156D19225F63CC00EA63EC /* LaunchScreen.storyboard */; };
 		D9156D1E225F63CC00EA63EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9156D1D225F63CC00EA63EC /* main.m */; };
+		D9156D26225F640C00EA63EC /* HDZoomCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D9156D25225F640C00EA63EC /* HDZoomCollectionViewFlowLayout.m */; };
+		D9156D2A225F750800EA63EC /* HDZoomCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9156D29225F750800EA63EC /* HDZoomCollectionView.m */; };
+		D9156D2D225F86EF00EA63EC /* HDDemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9156D2C225F86EF00EA63EC /* HDDemoCollectionViewCell.m */; };
+		D9156D2F225F897E00EA63EC /* Demo.png in Resources */ = {isa = PBXBuildFile; fileRef = D9156D2E225F897E00EA63EC /* Demo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		D9156D1A225F63CC00EA63EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9156D1C225F63CC00EA63EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9156D1D225F63CC00EA63EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9156D24225F640C00EA63EC /* HDZoomCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDZoomCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		D9156D25225F640C00EA63EC /* HDZoomCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDZoomCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		D9156D28225F750800EA63EC /* HDZoomCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDZoomCollectionView.h; sourceTree = "<group>"; };
+		D9156D29225F750800EA63EC /* HDZoomCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDZoomCollectionView.m; sourceTree = "<group>"; };
+		D9156D2B225F86EF00EA63EC /* HDDemoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDDemoCollectionViewCell.h; sourceTree = "<group>"; };
+		D9156D2C225F86EF00EA63EC /* HDDemoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDDemoCollectionViewCell.m; sourceTree = "<group>"; };
+		D9156D2E225F897E00EA63EC /* Demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Demo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 		D9156D0D225F63CB00EA63EC /* HDZoomCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				D9156D2E225F897E00EA63EC /* Demo.png */,
 				D9156D0E225F63CB00EA63EC /* AppDelegate.h */,
 				D9156D0F225F63CB00EA63EC /* AppDelegate.m */,
 				D9156D11225F63CB00EA63EC /* ViewController.h */,
@@ -67,6 +79,20 @@
 				D9156D19225F63CC00EA63EC /* LaunchScreen.storyboard */,
 				D9156D1C225F63CC00EA63EC /* Info.plist */,
 				D9156D1D225F63CC00EA63EC /* main.m */,
+				D9156D27225F641000EA63EC /* HDZoomCollectionView */,
+			);
+			path = HDZoomCollectionView;
+			sourceTree = "<group>";
+		};
+		D9156D27225F641000EA63EC /* HDZoomCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				D9156D24225F640C00EA63EC /* HDZoomCollectionViewFlowLayout.h */,
+				D9156D25225F640C00EA63EC /* HDZoomCollectionViewFlowLayout.m */,
+				D9156D28225F750800EA63EC /* HDZoomCollectionView.h */,
+				D9156D29225F750800EA63EC /* HDZoomCollectionView.m */,
+				D9156D2B225F86EF00EA63EC /* HDDemoCollectionViewCell.h */,
+				D9156D2C225F86EF00EA63EC /* HDDemoCollectionViewCell.m */,
 			);
 			path = HDZoomCollectionView;
 			sourceTree = "<group>";
@@ -128,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9156D2F225F897E00EA63EC /* Demo.png in Resources */,
 				D9156D1B225F63CC00EA63EC /* LaunchScreen.storyboard in Resources */,
 				D9156D18225F63CC00EA63EC /* Assets.xcassets in Resources */,
 				D9156D16225F63CB00EA63EC /* Main.storyboard in Resources */,
@@ -142,7 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9156D13225F63CB00EA63EC /* ViewController.m in Sources */,
+				D9156D2D225F86EF00EA63EC /* HDDemoCollectionViewCell.m in Sources */,
+				D9156D2A225F750800EA63EC /* HDZoomCollectionView.m in Sources */,
 				D9156D1E225F63CC00EA63EC /* main.m in Sources */,
+				D9156D26225F640C00EA63EC /* HDZoomCollectionViewFlowLayout.m in Sources */,
 				D9156D10225F63CB00EA63EC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ353LFGTA;
 				INFOPLIST_FILE = HDZoomCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HQ353LFGTA;
 				INFOPLIST_FILE = HDZoomCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
